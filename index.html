@@ -3,19 +3,78 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Página de ejemplo — TU_USUARIO</title>
+  <title>Adri González — Página de ejemplo</title>
   <style>
-    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin: 0; display:flex; align-items:center; justify-content:center; height:100vh; background:#f5f7fb; color:#111;}
-    .card{ background:white; padding:2rem; border-radius:12px; box-shadow: 0 6px 24px rgba(20,20,40,0.08); max-width:680px; text-align:center;}
-    a.button{ display:inline-block; margin-top:1rem; padding:0.5rem 1rem; border-radius:8px; text-decoration:none; background:#0366d6; color:white;}
+    /* Estilos generales */
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Roboto, Arial, sans-serif;
+      background: linear-gradient(135deg, #e0eafc, #cfdef3);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #222;
+    }
+
+    .card {
+      background: white;
+      padding: 2.5rem;
+      border-radius: 16px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+      text-align: center;
+      max-width: 500px;
+      width: 100%;
+      animation: fadeIn 1.2s ease-in-out;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: #0366d6;
+    }
+
+    h2 {
+      margin: 0.5rem 0;
+      font-size: 1.2rem;
+      color: #555;
+    }
+
+    p {
+      font-size: 1rem;
+      margin: 1rem 0;
+    }
+
+    a.button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.6rem 1.2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      background: #0366d6;
+      color: white;
+      font-weight: 500;
+      transition: background 0.3s ease;
+    }
+
+    a.button:hover {
+      background: #024f9e;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
   </style>
 </head>
 <body>
   <div class="card">
-    <h1>Hola — esta es tu GitHub User Page</h1>
-    <p>Esta página se sirve desde <code>https://adrigonzalezp.github.io</code> usando GitHub Pages.</p>
-    <p>Pon aquí el HTML que quieras: portfolios, proyectos, CV, etc.</p>
-    <a class="button" href="https://github.com/TU_USUARIO/TU_USUARIO.github.io" target="_blank">Ver repo en GitHub</a>
+    <h1>Adri González</h1>
+    <h2>IES Camp de Morvedre</h2>
+    <p>Módulo: <strong>Implantación de Aplicaciones Web</strong></p>
+    <a class="button" href="https://github.com/AdriGonzalezP" target="_blank">
+      🌐 Ver mi GitHub
+    </a>
   </div>
 </body>
 </html>
