@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+  <title>Adrián González Pardo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <style>
+  body {
+    font: 20px courier, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: #373188; 
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #2b552b; 
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffffff; 
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; 
+    color: #fff;
+  }
+
+  .mapa { 
+    background-color: #828283; 
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+
+ #donde-encontrarme img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  </style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Adrián González Pardo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#quiensoy">QUIEN</a></li>
+        <li><a href="#quesoy">QUE</a></li>
+        <li><a href="#donde-encontrarme">DONDE</a></li>
+        <li><a href="#map">MAPA</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="quiensoy" class="container-fluid bg-1 text-center">
+  <h3 class="margin">Quien soy?</h3>
+  <img src="img/irati.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Abrazo árbol Irati" width="350" height="350">
+  <h3>Soy un Aventurero</h3>
+</div>
+
+<div id="quesoy" class="container-fluid bg-2 text-center">
+  <h3 class="margin">Que soy?</h3>
+  <img src="img/nuria_pan.jpg" class="img-responsive img-thumbnail margin" alt="Panorámica del Valle de Nuria" width="500" height="auto">
+  <p>Somos dos viajeros por toda España en compañía de nuestro perrito Morty. </p>
+</div>
+
+<div id="donde-encontrarme" class="container-fluid bg-3 text-center">    
+  <h3 class="margin">Donde encontrarme?</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>En el Valle de Nuria</p>
+      <img src="img/nuria_morty.jpg" class="img-responsive margin" style="width:75%" height="auto" alt="Morty en el valle de Nuria">
+    </div>
+    <div class="col-sm-4"> 
+      <p>En el Ibon de Plan.</p>
+      <img src="img/plan_ibon.jpg" class="img-responsive margin" style="width:75%" height="auto" alt="Morty en el Ibon de Plan">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Estación de esquí de la Masella, la Cerdanya.</p>
+      <img src="img/masella.jpg" class="img-responsive margin" style="width:75%" height="auto" alt="Morty en la estación de esquí de La Masella">
+    </div>
+  </div>
+</div>
+
+<div id="map" class="container-fluid mapa text-center">
+  <h3>Mapa con todos los lugares que he visitado en mis viajes, en constante actualización.</h3>
+  <iframe src="https://www.google.com/maps/d/u/0/embed?mid=184WVrnxIowIrm_cADQSST_6Qe8qTNxE&ehbc=2E312F" width="900" height="500"></iframe>
+</div>
+
+<footer class="container-fluid bg-4 text-center">
+  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p> 
+</footer>
+
+</body>
+</html>
